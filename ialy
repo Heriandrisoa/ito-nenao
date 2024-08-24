@@ -1,0 +1,6 @@
+#!/bin/bash
+
+gcc ip.c -o ip.cgi
+sudo cp ip.cgi /var/www/html
+
+sudo systemctl restart apache2
